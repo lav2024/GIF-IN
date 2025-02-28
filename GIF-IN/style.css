@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
